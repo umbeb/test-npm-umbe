@@ -1,11 +1,23 @@
 {
-  "name": "@umbeb/feature-b",
+  "name": "@umbeb/test-npm-umbe-feature-b",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/umbeb/test-npm-umbe.git",
+    "directory": "packages/featureB"
+  },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/umbeb/test-npm-umbe/issues"
+  },
+  "homepage": "https://github.com/umbeb/test-npm-umbe#readme",
+  "dependencies": {
+    "@umbeb/test-npm-umbe-feature-a": "^1.0.0"
+  }
 }
